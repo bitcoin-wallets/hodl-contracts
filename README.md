@@ -33,7 +33,7 @@ Lots of bug fixes and improvements to come but it's going well!
 
 (1) Run LND in testnet mode (this app only works on testnet) and unlock your testnet wallet with `lncli unlock`
 
-(2) Clone this github repo: `git clone https://github.com/supertestnet/hodlcontracts.git`
+(2) Clone this github repo: `git clone https://github.com/bitcoin-wallets/hodlcontracts.git`
 
 (3) Enter the hodlcontracts directory: `cd hodlcontracts`
 
