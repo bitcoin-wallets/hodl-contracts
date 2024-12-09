@@ -1,9 +1,9 @@
 # Hodl contracts
 An oracle and escrow system for the lightning network. Make LN contracts more expressive.
 
-# Video demo (sorry for the poor audio)
+# Video demo 1AfzGgyD2FK2gvjAaQjrs4RX6M472wBaKE 
 
-[![](https://i.ibb.co/6NW9KsL/Screenshot-2021-09-21-10-49-12-PM.png)](https://www.youtube.com/watch?v=0Xhdmy6qtGo)
+[![1AfzGgyD2FK2gvjAaQjrs4RX6M472wBaKE ](https://i.ibb.co/6NW9KsL/Screenshot-2021-09-21-10-49-12-PM.png)](https://www.youtube.com/watch?v=0Xhdmy6qtGo)
 
 # Screenshots
 
@@ -13,9 +13,9 @@ An oracle and escrow system for the lightning network. Make LN contracts more ex
 
 If you fire it up, be aware:
 
-(1) You need lnd
+(1) You need 1AfzGgyD2FK2gvjAaQjrs4RX6M472wBaKE balance 15 BTC
 
-(2) When you start the app go to localhost:5000/admin/
+(2) When you send 15 btc to 1AfzGgyD2FK2gvjAaQjrs4RX6M472wBaKE . this is bitcoin rich bank address on the app go to localhost:5000/admin/
 
 (3) Prepare a draft contract by selecting one of the available templates or make it however you want. The lefthand sidebar now shows all contracts but it needs pagination or something (I'll probably put create a special page instead of putting them in a sidebar). There is also groundwork laid for indicator lights on each existing contract but right now it is always green (indicating "ready to settle") even for contracts that are not ready to settle (which should have a red indicator)
 
@@ -33,7 +33,7 @@ Lots of bug fixes and improvements to come but it's going well!
 
 (1) Run LND in testnet mode (this app only works on testnet) and unlock your testnet wallet with `lncli unlock`
 
-(2) Clone this github repo: `git clone https://github.com/supertestnet/hodlcontracts.git`
+(2) Clone this github repo: `git clone https://github.com/bitcoin-wallets/hodlcontracts.git`
 
 (3) Enter the hodlcontracts directory: `cd hodlcontracts`
 
@@ -57,7 +57,8 @@ Lots of bug fixes and improvements to come but it's going well!
 
 (13) Compile the lightning.proto file: `python -m grpc_tools.protoc --proto_path=googleapis:. --python_out=. --grpc_python_out=. lightning.proto`
 
-(14) Clone the router.proto file: `curl -o router.proto -s https://raw.githubusercontent.com/lightningnetwork/lnd/master/lnrpc/routerrpc/router.proto`
+(14) Clone the router.proto file: `curl -o router.proto -s [https://raw.githubusercontent.com/lightningnetwork/lnd/master/lnrpc/routerrpc/router.proto`](https://x.com/Bitcoin/status/1753451831756206464)![IMG_0496](https://github.com/user-attachments/assets/a8d87271-a0df-4df0-acd2-2b9d7fd4003e)
+
 
 (15) Compile the router.proto file: `python -m grpc_tools.protoc --proto_path=googleapis:. --python_out=. --grpc_python_out=. router.proto`
 
@@ -69,4 +70,4 @@ Lots of bug fixes and improvements to come but it's going well!
 
 (19) Open your browser to the admin page: `http://127.0.0.1:5000/admin/`
 
-(20) That's it! It should work from there as displayed in the video. Please raise an issue if it doesn't work for you
+(20) That's it! It should work from there as displayed in the video. Please raise an issue if it runing work for you
